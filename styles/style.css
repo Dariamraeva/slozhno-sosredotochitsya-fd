@@ -2,4 +2,70 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  /* style.css */
+
+  background-image: var(--page-bg-image);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr min-content 1fr;
+  height: 100vh;
+  min-height: 668px;
+  background-image: url(../images/cover-image-dark.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.decorated-zone {
+
+}
+
+.header__title {
+color: var(--header-title);
+font-size: var(--font-size-mobile);
+text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+}
+
+
+.article-paragraph {
+  color: var(--text-color);
+}
+
+.section__title {
+  color: var(--accent-color);
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-flow: row;
+}
+
+.image {
+object-fit: cover;
+block-size: 100%;
+inline-size: 100%;
+}
+
+.footer {
+
+}
+
+.footer__title {
+ color: var(--header-title);
+ font-size: var(--font-size-mobile);
+ text-shadow: 4px 4px 0 var(--accent-color);
 }
