@@ -1,15 +1,17 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
 :root {
-  --page-bg-image: url(../images/cover-image.png);
-  --font-family: 'IBM Plex mono';
+  --page-bg-image: url(../images/cover-image-dark.png);
+  --font-family: "IBM Plex mono";
   --accent-color: #ff0070;
-  --font-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --font-size-desk: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --bg-color: #000028;
   --text-color: #f1b2ce;
-  --text-title: #000028;
-  --header-title: #DB00FF;
+  --title-color: #db00ff;
+  --menu-button-color: #ff0070;
+  --section-heading-color: #ff0070;
+  --decor-color: #ff0070;
+  --card-heading-color: #000028;
+  --menu-hover-color: #ff007066;
+}
+
+:root {
   --bg-color: #000028;
 }
