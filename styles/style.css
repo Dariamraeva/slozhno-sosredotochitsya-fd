@@ -8,6 +8,7 @@
   background-image: var(--page-bg-image);
   background-size: cover;
   background-attachment: fixed;
+  background-position: center;
 }
 
 .header {
@@ -124,7 +125,7 @@
   color: var(--card-heading-color, #000028);
   font-weight: 700;
   justify-self: center;
-  max-block-size: 117px;
+  max-block-size: 100%;
 }
 
 .title-decor {
