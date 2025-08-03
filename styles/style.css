@@ -162,8 +162,9 @@
   margin-block-end: 10px;
 }
 
-.card__text {
-margin-bottom: 6%;
+.card {
+  display: grid;
+  gap: 20px;
 }
 
 .card__link {
