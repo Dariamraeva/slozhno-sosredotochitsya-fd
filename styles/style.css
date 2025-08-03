@@ -163,7 +163,7 @@
 }
 
 .card__addition {
-  display: flex;
+  display: grid;
   gap: 15px;
 }  
 
