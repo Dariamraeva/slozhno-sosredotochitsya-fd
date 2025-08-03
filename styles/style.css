@@ -162,10 +162,6 @@
   margin-block-end: 10px;
 }
 
-.card__text {
-margin-bottom: 20px;
-}  
-
 .card__link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
