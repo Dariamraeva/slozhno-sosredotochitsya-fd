@@ -162,10 +162,10 @@
   margin-block-end: 10px;
 }
 
-.card {
-  display: grid;
-  gap: 20px;
-}
+.card__addition {
+  display: flex;
+  gap: 15px;
+}  
 
 .card__link {
   text-decoration: none;
